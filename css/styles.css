@@ -46,18 +46,18 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  .accent {
-    color: var(--iris);
-  }
+  color: var(--navy-blue);
 }
 
-.section-title {
+.accent {
+  color: var(--iris);
+}
+
+/* .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
 }
 
 .item-title {
@@ -72,7 +72,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
+} */
 
 .header {
   background: var(--white);
@@ -99,7 +99,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* color: var(--navy-blue); */
+  color: var(--navy-blue);
 }
 
 .header-nav-link:hover,
@@ -124,7 +124,8 @@ button {
   color: var(--slate);
 }
 
-.contacts-link:hover {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--ocean);
 }
 
@@ -154,7 +155,7 @@ button {
 
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--ocean);
+  background-color: var(--ocean);
 }
 
 /* 
@@ -170,8 +171,12 @@ button {
 .features-item {
 } */
 
-/* .features-item-title {
-} */
+.features-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
 
 .features-text {
   color: var(--slate);
@@ -182,7 +187,12 @@ button {
 }
 
 .team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
+  color: var(--navy-blue);
 }
 
 /* .team-list {
@@ -196,11 +206,14 @@ button {
 } */
 
 .team-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
 .team-text {
-  text-transform: capitalize;
   text-align: center;
   color: var(--slate);
 }
@@ -210,7 +223,12 @@ button {
 }
 
 .portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
+  color: var(--navy-blue);
 }
 
 /* .portfolio-list {
@@ -224,7 +242,10 @@ button {
 } */
 
 .portfolio-item-title {
-  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   text-align: left;
 }
 
