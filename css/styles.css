@@ -20,7 +20,7 @@
 
 body {
   font-family: var(--font-family);
-  color: var(--navy-blue);
+  color: var(--slate);
 }
 
 ul {
@@ -179,7 +179,10 @@ button {
 }
 
 .features-text {
-  color: var(--slate);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .team-section {
@@ -211,11 +214,15 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  color: var(--navy-blue);
 }
 
 .team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-align: center;
-  color: var(--slate);
 }
 
 .portfolio-section {
@@ -247,11 +254,15 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
+  color: var(--navy-blue);
 }
 
 .portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-align: left;
-  color: var(--slate);
 }
 
 .footer {
@@ -264,6 +275,10 @@ button {
 }
 
 .footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-align: left;
   color: var(--cloud);
 }
