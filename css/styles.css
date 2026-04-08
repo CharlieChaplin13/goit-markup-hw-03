@@ -259,8 +259,9 @@ img {
   gap: 24px;
 }
 
-/* .features-item {
-} */
+.features-item {
+  flex-basis: calc((100% - (3 * 24px)) / 4);
+}
 
 .features-item-title {
   font-weight: 500;
@@ -269,7 +270,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   margin-bottom: 8px;
-  flex-basis: calc(100% - (3 * 24px) / 4);
 }
 
 .features-text {
@@ -308,7 +308,7 @@ img {
 
 .team-item {
   background: var(--white);
-  flex-basis: calc(100% - (3 * 24px) / 4);
+  flex-basis: calc((100% - (3 * 24px)) / 4);
   border-radius: 0 0 4px 4px;
   box-shadow:
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
